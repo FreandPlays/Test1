@@ -1,0 +1,15 @@
+<FilesMatch ^((general)\.json$)$>
+    Deny from all
+</FilesMatch> 
+
+<FilesMatch ^((custom)\.json$)$>
+    Deny from all
+</FilesMatch> 
+
+<FilesMatch ^((darkrp)\.json$)$>
+    Deny from all
+</FilesMatch> 
+
+<FilesMatch ^((music)\.json$)$>
+    Deny from all
+</FilesMatch> 
